@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>emilioppv: work</title>
+    <link rel="stylesheet" href="../stylesheets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../index.html">emilio popovits blake</a>
+        <ul>
+          <li>
+            <a href="./work.html">work</a>
+          </li>
+          <li>
+            <a href="./projects.html">projects</a>
+          </li>
+          <li>
+            <a href="https://github.com/empobla?tab=repositories" target="_blank">github</a>
+          </li>
+          <li>
+            <a href="./contact.html">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main-content">
+      <h1 class="page-title">work</h1>
+      <div class="portfolio-carousel">
+        <div class="portfolio-carousel__pages">
+          <div class="portfolio-carousel__page portfolio-carousel__page--first">
+            <a class="carousel-item" href="./bait.html">
+              <img class="carousel-item__bg" src="../images/dbait/preview.png" />
+              <div class="carousel-item__label">
+                <h3 class="carousel-item__name">Bait</h3>
+              </div>
+              <div class="carousel-item__logo">
+                <img src="../images/dbait/logo.png" style="width: 115%;
+height: 115%;
+position: absolute;
+left: -5%;
+top: -5%;" />
+              </div>
+            </a>
+            <a class="carousel-item" href="./gira.html">
+              <img class="carousel-item__bg" src="../images/gira/gira.png" style="position: absolute;
+left: -13%;;" />
+              <div class="carousel-item__label" style="background-color: #be858596;">
+                <h3 class="carousel-item__name">Gira</h3>
+              </div>
+              <div class="carousel-item__logo">
+                <img src="../images/gira/logo.png" />
+              </div>
+            </a>
+            <a class="carousel-item" href="./inventorize.html">
+              <img class="carousel-item__bg" src="../images/inventorize/inventorize.jpg" style="height: 130%;
+position: absolute;
+left: -15%;
+top: -10%;" />
+              <div class="carousel-item__label" style="background-color: #868898a4;">
+                <h3 class="carousel-item__name">Inventorize</h3>
+              </div>
+              <div class="carousel-item__logo">
+                <img src="../images/inventorize/logo.png" />
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-carousel__navigation">
+          <label class="manual-btn" for="radio0"></label>
+        </div>
+      </div>
+      <div class="portfolio-summaries">
+        <div class="entry">
+          <img class="entry__logo" src="../images/dbait/logoAsset 3.png.png">
+          <h2 class="entry__name">Bait</h2>
+          <div class="entry__desc">
+            <div class="entry__text">
+              <p>Bait is a website where users can create, share, spectate, and participate in debates about any topic they find interesting. It was originally created as a new form of social media, and was initially developed as an M.V.P. for the clients. It makes use of firebase's realtime database to enable users to debate on real time with each other, and its frontend design follows a mobile-first approach.</p>
+            </div>
+            <a class="entry__button" href="./bait.html">learn more</a>
+          </div>
+        </div>
+        <div class="entry">
+          <img class="entry__logo" src="../images/gira/logo.png" style="width: 150px;">
+          <h2 class="entry__name">Gira</h2>
+          <div class="entry__desc">
+            <div class="entry__text">
+              <p>Gira is a fullstack website created for a college club that exists in several universities in Mexico. In this website, users can publish articles with images, create events with images and videos, send massive emails to mailing lists, accept donations through PayPal's API, and register for events that this club holds. In addition, users can view posted classes and courses made available by Gira's administrative team.</p>
+            </div>
+            <a class="entry__button" href="./gira.html">learn more</a>
+          </div>
+        </div>
+        <div class="entry">
+          <img class="entry__logo" src="../images/inventorize/logo.png">
+          <h2 class="entry__name">Inventorize</h2>
+          <div class="entry__desc">
+            <div class="entry__text">
+              <p>Inventorize is an inventory <i></i>management desktop application with a built-in sale registering system and user sale commission reporting for the administrator. It is a Windows Desktop application primarily made to suit the client's (a doctor) needs for managing his product inventory and automatically calculating his secretaries' commissions for sales they make on their account. </p>
+            </div>
+            <a class="entry__button" href="./inventorize.html">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../javascripts/common.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', _ => setupCarousel());
+    </script>
+  </body>
+</html>

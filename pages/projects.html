@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>emilioppv: projects</title>
+    <link rel="stylesheet" href="../stylesheets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../index.html">emilio popovits blake</a>
+        <ul>
+          <li>
+            <a href="./work.html">work</a>
+          </li>
+          <li>
+            <a href="./projects.html">projects</a>
+          </li>
+          <li>
+            <a href="https://github.com/empobla?tab=repositories" target="_blank">github</a>
+          </li>
+          <li>
+            <a href="./contact.html">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main-content">
+      <h1 class="page-title">projects</h1>
+      <div class="portfolio-carousel">
+        <div class="portfolio-carousel__pages">
+          <div class="portfolio-carousel__page portfolio-carousel__page--first">
+            <a class="carousel-item" href="./sidequest.html">
+              <img class="carousel-item__bg" src="../images/sidequest/sidequest.png" />
+              <div class="carousel-item__label" style="background-color: #9a9a9aa4;">
+                <h3 class="carousel-item__name">SideQuest</h3>
+              </div>
+              <div class="carousel-item__logo">
+                <img src="../images/sidequest/logo.jpg" />
+              </div>
+            </a>
+            <a class="carousel-item" href="./zombiedungeons.html">
+              <img class="carousel-item__bg" src="../images/zombiedungeons/zombiedungeons.png" style="position: absolute;
+left: -30%;" />
+              <div class="carousel-item__label" style="background-color: #0D5209a4;">
+                <h3 class="carousel-item__name" style="font-size: 0.8em;">Zombie Dungeons</h3>
+              </div>
+              <div class="carousel-item__logo">
+                <img src="../images/zombiedungeons/logo.png" />
+              </div>
+            </a>
+            <a class="carousel-item" href="./alcotrack.html">
+              <img class="carousel-item__bg" src="../images/alcotrack/alcotrack.jpg" style="height: auto;
+width: 100%;
+position: absolute;
+top: -40%;" />
+              <div class="carousel-item__label" style="background-color: #B2D1CAa4;">
+                <h3 class="carousel-item__name">AlcoTrack</h3>
+              </div>
+              <div class="carousel-item__logo">
+                <img src="../images/alcotrack/logo.jpg" />
+              </div>
+            </a>
+            <a class="carousel-item" href="./people.html">
+              <img class="carousel-item__bg" src="../images/people/people.jpg" />
+              <div class="carousel-item__label" style="background-color: #648AA7a4;">
+                <h3 class="carousel-item__name">People</h3>
+              </div>
+              <div class="carousel-item__logo">
+                <img src="../images/people/logo.jpg" />
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-carousel__navigation">
+          <label class="manual-btn" for="radio0"></label>
+        </div>
+      </div>
+      <div class="portfolio-summaries">
+        <div class="entry">
+          <img class="entry__logo" src="../images/sidequest/logo.jpg">
+          <h2 class="entry__name">SideQuest</h2>
+          <div class="entry__desc">
+            <div class="entry__text">
+              <p style="margin-left:0px;">SideQuest is a web app created to work as a wiki for a personal Dungeons and Dragons campaign and a character and story manager. It is made to facilitate and enhance the Dungeons and Dragons players' experience and facilitate worldbuilding and session creation for the Dungeon Master that runs the Dungeons and Dragons campaign. The main objective of this fullstack development project was to practice and perfect my overall backend development skills.</p>
+            </div>
+            <a class="entry__button" href="./sidequest.html">learn more</a>
+          </div>
+        </div>
+        <div class="entry">
+          <img class="entry__logo" src="../images/zombiedungeons/logo.png">
+          <h2 class="entry__name">Zombie Dungeons</h2>
+          <div class="entry__desc">
+            <div class="entry__text">
+              <p>Zombie Dungeons is a 3D videogame that takes place in a post-apocalyptic world where the main character is a survivor that needs to save the world by searching for the cure for the alien disease that turns infected people into zombies in secret government bunkers within Area 51. </p>
+            </div>
+            <a class="entry__button" href="./zombiedungeons.html">learn more</a>
+          </div>
+        </div>
+        <div class="entry">
+          <img class="entry__logo" src="../images/alcotrack/logo.jpg">
+          <h2 class="entry__name">AlcoTrack</h2>
+          <div class="entry__desc">
+            <div class="entry__text">
+              <p style="margin-left:0px;">AlcoTrack - Alcohol Tracker is a personal blood alcohol content tracker built exclusively for iOS devices This application allows the user to log his/her drinks on an iPhone or AppleWatch so that the app can calculate his/her blood alcohol content and display it back. A planned objective for this app is for it to be able to approximately be able to predict when a user will get drunk and notify him/her before it happens. AlcoTrack is still in development.</p>
+            </div>
+            <a class="entry__button" href="./alcotrack.html">learn more</a>
+          </div>
+        </div>
+        <div class="entry">
+          <img class="entry__logo" src="../images/people/logo.jpg" style="box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.4);">
+          <h2 class="entry__name">People</h2>
+          <div class="entry__desc">
+            <div class="entry__text">
+              <p style="margin-left:0px;">People is a web app created for people to manage and organize their interpersonal (social) relationships, which is done through organizing people into tags, groups, and events. The main objective of this fullstack development project was to practice and solidify my frontend CSS skills and backend database querying skills. This web app contains many CSS tricks I learned and applied, such as animations, carousels, and SVG icon manipulation. People is still in development.</p>
+            </div>
+            <a class="entry__button" href="./people.html">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../javascripts/common.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', _ => setupCarousel());
+    </script>
+  </body>
+</html>
